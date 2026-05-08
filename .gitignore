@@ -1,0 +1,80 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IntelliJ plugin files
+atlassian-ide-plugin.xml
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Maven
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Maven wrapper jar (通常はコミット推奨なので除外しない)
+# .mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+
+# Gradle wrapper (通常はコミット推奨なので除外しない)
+# gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment files
+# =========================
+.env
+*.local
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*~
