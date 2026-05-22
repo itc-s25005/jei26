@@ -5,7 +5,7 @@ public class Q27 {
         int i = 0;
         while (i <= 6) {
             System.out.println(i);
-            i += 1;
+            i++; 
         }
     }
 }
