@@ -6,7 +6,7 @@ double型の２次元配列arrを5行10列で作成してください。
 
 public class Q20Kadai {
     static void main(String[] args) {
-        int[] arr = new int[10];
+        double[][] arr = new double[5][10];
 
         System.out.println(arr.length);
     }

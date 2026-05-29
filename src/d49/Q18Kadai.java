@@ -11,7 +11,7 @@ public class Q18Kadai {
         int capacity = 30;
         int cargo = 2;
 
-        System.out.println((double) total / capacity * cargo);
+        System.out.println((double) (total / capacity * cargo));
     //
     }
 }
