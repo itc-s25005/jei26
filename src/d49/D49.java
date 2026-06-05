@@ -5,3 +5,5 @@ public class D49 {
         System.out.println("第49回");
     }
 }
+
+// test
