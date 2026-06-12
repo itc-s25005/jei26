@@ -55,11 +55,11 @@ class PrimeNumbers {
         // pが最大値の正の平方根を超えるまで④⑤の手順を繰り返す
         // 4.③: 素数をして2をpに設定する
         // 4.⑤: 素数判定配列pの次の素数を先頭から探索し、pへ設定する(p++)
-        for (int p = 2; p <= Math.sqrt(max); p++) {  //*
+        for (int p = 2; p <= Math.sqrt(max); p++) {
 
             // pが素数であれば、倍数をfalseに設定する
             if (isPrimeNumbers[p]) {
-                for (int m = p * 2; m <= max; m += p) { //*
+                for (int m = p * 2; m <= max; m += p) {
 
                     // 4.④: 素数pの倍数をすべてfalseに設定する
                     isPrimeNumbers[m] = false;
@@ -68,8 +68,11 @@ class PrimeNumbers {
         }
     }
 
+    // 指定された範囲の素数を素数判定配列から抜き出し、結果を配列で返す
     int[] getPart(int min, int max) {
         int count = 0;
+
+        // 素数の数をカウントし、countへ格納
         for (int n = min; n <= max; n++) {
             if (isPrimeNumbers[n]) {
                 count++;
