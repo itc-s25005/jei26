@@ -1,5 +1,14 @@
 package d50;
 
+/*
+Q27を参考に「Cool」が出力されるよう変数「control」に代入される値を「2」にした上で
+switch文を修正してください。
+
+【期待される出力】
+Cool
+
+ */
+
 public class Q27 {
     static void main(String[] args) {
         int control = 2;
