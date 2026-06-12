@@ -9,7 +9,7 @@ Cool
 
  */
 
-public class Q27 {
+public class Q27kadai {
     static void main(String[] args) {
         int control = 2;
         String mode;
