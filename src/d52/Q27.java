@@ -1,0 +1,19 @@
+package d52;
+
+enum Signal{
+    RED, YELLOW, GREEN;
+}
+
+public class Q27 {
+    static void main(String[] args) {
+//        Signal sig = YELLOW;
+        Signal sig = Signal.YELLOW; // error にならないコード
+        if (sig == Signal.GREEN){
+            System.out.println("緑");
+        } else if (sig == Signal.YELLOW){
+            System.out.println("黄");
+        } else {
+            System.out.println("赤");
+        }
+    }
+}
